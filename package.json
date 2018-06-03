@@ -4,8 +4,8 @@
   "license": "MIT",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
-    "postinstall": "ng-built-aot-target-production"
+    "start": "node server.js",
+    "postinstall": "ng build --aot --target=production"
   },
   "engine": {
     "node": "10.0.0",
